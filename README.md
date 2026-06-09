@@ -1,3 +1,4 @@
+```text
 webserv/
 ├── Makefile
 ├── inc/
@@ -15,3 +16,4 @@ webserv/
 │   └── default.conf  # fichier de configuration de test
 └── www/
     └── index.html    # site web pour faire des tests
+```
