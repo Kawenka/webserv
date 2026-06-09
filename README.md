@@ -16,6 +16,7 @@ webserv/
 │   └── default.conf  # fichier de configuration de test
 └── www/
     └── index.html    # site web pour faire des tests
+```
 
 ## 📑 Git Workflow & Branches
 | Branche | Description
@@ -29,4 +30,3 @@ webserv/
 | `feature/file-upload` | Gestion des requêtes POST `multipart/form-data` pour permettre aux clients d'uploader et d'enregistrer des fichiers. |
 | `feature/autoindex` | Génération automatique d'une page HTML listant le contenu d'un répertoire si le fichier index est absent. |
 | `fix/memory-leaks` | Phase de nettoyage avec **Valgrind** : correction des fuites mémoire, gestion rigoureuse des erreurs et des crashs. |
-```
